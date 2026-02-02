@@ -7,6 +7,7 @@ import isMobile from './isMobile';
 import isSidebarOpen from './isSidebarOpen';
 import settings from './settings';
 import sync from './sync';
+import budgetSpending from './budgetSpending';
 
 export default combineReducers({
   form,
@@ -16,5 +17,6 @@ export default combineReducers({
   settings,
   sync,
   isMobile,
-  isSidebarOpen
+  isSidebarOpen,
+  budgetSpending
 });

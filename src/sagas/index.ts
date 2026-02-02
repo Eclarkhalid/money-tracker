@@ -2,6 +2,7 @@ import { UserSaga } from 'features/user/state';
 import { all } from 'redux-saga/effects';
 import accounts from './accounts';
 import bootstrap from './bootstrap';
+import budgets from './budgets';
 import dataImport from './dataImport';
 import report from './report';
 import settings from './settings';
@@ -14,6 +15,7 @@ export default function* rootSaga() {
     ...UserSaga,
     ...accounts,
     ...bootstrap,
+    ...budgets,
     ...dataImport,
     ...report,
     ...settings,
