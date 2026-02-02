@@ -20,7 +20,7 @@ class InitialSetup extends React.Component {
   render() {
     return (
       <div className="container-raised-desktop">
-        <Header as="h2" icon="settings" content="Money Tracker Setup" />
+        <Header as="h2" icon="settings" content="SIMPLI EXPENSE Setup" />
         <Divider />
         {!this.props.isAuthenticated && (
           <p>

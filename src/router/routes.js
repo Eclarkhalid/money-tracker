@@ -3,7 +3,7 @@ import Transactions from '../containers/Transactions';
 import Accounts from '../containers/Accounts';
 import Reports from '../containers/Reports';
 import Settings from '../containers/Settings';
-import WorkInProgress from '../containers/WorkInProgress';
+import Budget from '../containers/Budget';
 
 export default [
   {
@@ -40,7 +40,7 @@ export default [
     exact: false,
     label: 'Budget',
     icon: 'shopping basket',
-    component: WorkInProgress
+    component: Budget
   },
   {
     path: '/settings',
